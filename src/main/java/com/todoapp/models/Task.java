@@ -27,9 +27,6 @@ public class Task {
 	@NotEmpty
 	private String time;
 	private String ps;
-	
-	@ManyToOne
-	private User user;
 
 	public long getId() {
 		return id;
@@ -70,14 +67,5 @@ public class Task {
 	public void setPs(String ps) {
 		this.ps = ps;
 	}
-
-	public User getUser() {
-		return user;
-	}
-
-	public void setUser(User user) {
-		this.user = user;
-	}
-	
 	
 }
