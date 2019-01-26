@@ -11,6 +11,7 @@ import javax.persistence.OneToMany;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
+
 @Entity
 public class User implements Serializable{
 
