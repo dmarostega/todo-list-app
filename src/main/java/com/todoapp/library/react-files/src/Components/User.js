@@ -15,7 +15,7 @@ class User extends Component{
     }
     getUser(){
        /**/ axios('http://localhost:8080/alluser').then(response=>{
-            this.setState({users: response.data},
+           this.setState({users: response.data},
                 ()=>{
                     console.log(this.state);
                 })
@@ -31,6 +31,7 @@ class User extends Component{
             <div>
                 <h3>GIB USERS</h3>
                 <ul>
+                    <li>Testando</li>
                     {userItem}
                 </ul>
             </div>
